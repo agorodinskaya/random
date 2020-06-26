@@ -1,9 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;700&display=swap');
+
+
+
+
 body{
+    font-family: 'Krona One', sans-serif;
     background-color: yellow;
 }
 
 .about{
-color: blue;
-background-color: lightblue;
+color:wheat;
+background-color: lightcoral;
 text-align: left;
+}
+
+h1 {
+    background-color: wheat;
+    color: violet;
+
 }
