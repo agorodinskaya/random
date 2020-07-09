@@ -10,27 +10,69 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Here we go:</h1>
-  <p>Following along with the instructor and reading through CSS tricks:</p>
+
+  <p>Following along with the instructor and reading through CSS tricks <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Link<img src="CSStrickslogo.jpg" alt="" height = "15px"></a>:</p>
   <div class = "container1">
     <div class="box1">
       <h3>Box1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
     </div>
     <div class = "box2">
       <h3>Box2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deserunt</p>
     </div>
-    <div class="box3"><h3>Box3</h3></div>
-  </div>
+    <div class="box3"><h3>Box3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p></div>
+    </div>
+    <pre>
+      Code used in css for Container 1:
+      /*CSS/
+      .container1 {
+        color: #001858;
+        display: flex;
+        /* align-items: flex-start;
+          align-items:flex-end;
+          align-items: center;
+          flex-direction: column; */
+      }
+      .box1 {
+        background-color: #8bd3dd;
+        flex: 1;
+        order: 2;
+      }
+      .box2 {
+        background-color: #d1d1e9;
+        flex: 2;
+        order: 3;
+      }
+      .box3 {
+        background-color: #f582ae;
+        flex: 1;
+        order: 1;
+      }
+    </pre>
+
 
   <div class = "container2">
-    <div class="box4">
-      <h3>Box1</h3>
+    <div class="box4 container2-box">
+      <h3>Box4</h3>
     </div>
-    <div class = "box5">
-      <h3>Box2</h3>
+    <div class = "box5 container2-box">
+      <h3>Box5</h3>
     </div>
-    <div class="box6"><h3>Box3</h3></div>
+    <div class="box6 container2-box"><h3>Box6</h3></div>
   </div>
+
+  <div class = "container3">
+    <div class="box7 container3-box">
+      <h3>Box7</h3>
+    </div>
+    <div class = "box8 container3-box">
+      <h3>Box8</h3>
+    </div>
+    <div class="box9 container3-box"><h3>Box9</h3></div>
+  </div>
+
 
   <a href="index.html">Back to main page</a>
 </body>
