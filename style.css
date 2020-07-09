@@ -7,14 +7,9 @@ body {
   font-family: "PT Sans", sans-serif;
   line-height: 1.5;
   color: #a7a9be;
+  text-align: justify;
 }
 
-.center {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  min-width: 95%;
-}
 header {
   background-color: #e53170;
   color: #fffffe;
@@ -30,15 +25,21 @@ header nav ul {
 li {
   list-style: none;
 }
+.flex {
+  color: #ffd803;
+}
 
 header nav a {
   color: #fffffe;
-  text-decoration: none;
 }
 nav a:hover {
   text-decoration: underline;
+  color: #a786df;
 }
 
+a {
+  color: #fffffe;
+}
 table {
   color: #0f0e17;
 }
@@ -61,4 +62,25 @@ img {
 
 .movImg {
   height: 100px;
+}
+.container1 {
+  color: #2b2c34;
+}
+.box1 {
+  background-color: #8bd3dd;
+}
+.box2 {
+  background-color: #001858;
+}
+.box3 {
+  background-color: #f582ae;
+}
+.box4 {
+  background-color: #ff8e3c;
+}
+.box5 {
+  background-color: #004643;
+}
+.box6 {
+  background-color: #6246ea;
 }
